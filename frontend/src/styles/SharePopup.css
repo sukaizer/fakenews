@@ -1,0 +1,61 @@
+.share-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.share-popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.share-popup-content select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.platform-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.platform-buttons button {
+    margin: 10px;
+    padding: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.platform-buttons button img {
+    width: 40px;
+    height: 40px;
+}
+
+.platform-buttons button.selected {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.share-popup-content button {
+    margin: 5px;
+}
+
+.share-popup-button-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
